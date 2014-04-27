@@ -26,7 +26,6 @@ makeCacheMatrix <- function(x = matrix()) {
            getInverse = getInverse)  
 }
 
-
 ## cacheSolve allows the user to get the inverse of a matrix without having to
 ## make tedious calculations each time. It takes a list of functions 
 ## (cached matrix) and checks if the inverse already exists in cache by 
